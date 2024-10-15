@@ -1,0 +1,54 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Static libraries
+*.lib
+*.a
+
+# Compiled Dynamic libraries
+*.so
+*.dll
+*.dylib
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.stackdump
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Build directories
+build/
+bin/
+lib/
+
+# Code::Blocks workspace files
+*.layout
+*.depend
+
+# Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.ncb
+*.opendb
+*.tlog
+*.VC.db
+
+# MacOS specific files
+.DS_Store
+
+# Other generated files
+*.log
+*.tmp
