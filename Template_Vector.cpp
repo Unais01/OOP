@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
-// template <typename T>
-// void log(T value)
-// {
-//     cout << value << " \n";
-// }
+template <typename T>
+void log(T value)
+{
+    cout << value << " \n";
+}
 
 template <typename T>
 class Vector
@@ -50,7 +50,7 @@ public:
 
 int main()
 {
-    Vector<int> arr(5);
+    Vector<int> arr(1);
     arr.getInput();
     arr.display();
     arr.addToLast(100);
